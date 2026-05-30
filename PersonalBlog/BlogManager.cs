@@ -22,6 +22,7 @@ namespace PersonalBlog
             });
         }
 
+
         public List<BlogPost> GetAllPosts() => _posts;
 
         public bool DeletePost(int id)
