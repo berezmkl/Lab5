@@ -34,6 +34,7 @@ namespace PersonalBlog
             return false;
         }
 
+
         public int GetCount() => _posts.Count;
     }
 }
